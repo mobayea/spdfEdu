@@ -1,4 +1,4 @@
-      h1#head{
+h1#head{
       font-size: 210%;
       background: rgba(85,85,85,0.533);
       text-align: center;
@@ -15,29 +15,29 @@
       cursor: pointer;
       transition: 2s ease-out;
       }
-      h1#head:hover{
+h1#head:hover{
         font-size: 215%;
         box-shadow: 1px 1px 20px 5px 
         rgb(17,20,20) inset;
       }
-      div.vol{
+div.vol{
         text-align: center;
         font-size: 140%;
       }
-      img.cover{
+img.cover{
         display: block;
         margin: auto;
         width: 60%;
         height: auto;
       }
-      img.cover:hover{
+img.cover:hover{
         opacity: 0.6;
       }
-      p.volName{
+p.volName{
         text-align: center;
         line-height: 0.5;
       }
-      p#bookName{
+p#bookName{
         text-align: center;
         line-height: 1;
         font-weight: bold;
@@ -45,10 +45,10 @@
         font-family: 'Oswald', 
                 sans-serif;
       }
-      p.volNo{
+p.volNo{
         color: rgb(145,66,232);
       }
-      a.down{
+a.down{
         display: block;
         color: red;
         background-color: white;
@@ -59,11 +59,11 @@
         cursor: pointer;
         transition: 1s;
       }
-      a.down:hover{
+a.down:hover{
         background-color: red;
         color: white;
       }
-      div.share{
+div.share{
         height: 27px;
         font-size: 23px;
         display: block;
@@ -74,12 +74,12 @@
         padding: 3px;
         box-shadow: none;
       }
-      div.share:hover{
+div.share:hover{
         border: 1px solid black;
         box-shadow: 0.3px 0.3px 3px 0.5px
         rgb(17,20,20) inset;
       }
-      div.bubble{
+div.bubble{
         margin: auto;
         vertical-align: middle;
         width: 30%;
@@ -88,8 +88,8 @@
         border: 1px solid red;
         text-align: center;
       }
-      div#PopularPosts1.widget.PopularPosts{
+div#PopularPosts1.widget.PopularPosts{
         background-color: 
         rgb(255,255,255);}
-      .post h3 {display: none}
-      .post-share-buttons-top{display:none}
+.post h3 {display: none}
+.post-share-buttons-top{display:none}
