@@ -1,4 +1,4 @@
-h1#head{
+#head{
       font-size: 210%;
       background: rgba(85,85,85,0.533);
       text-align: center;
@@ -15,29 +15,29 @@ h1#head{
       cursor: pointer;
       transition: 2s ease-out;
       }
-h1#head:hover{
+#head:hover{
         font-size: 215%;
         box-shadow: 1px 1px 20px 5px 
         rgb(17,20,20) inset;
       }
-div.vol{
+.vol{
         text-align: center;
         font-size: 140%;
       }
-img.cover{
+.cover{
         display: block;
         margin: auto;
         width: 60%;
         height: auto;
       }
-img.cover:hover{
+.cover:hover{
         opacity: 0.6;
       }
-p.volName{
+.volName{
         text-align: center;
         line-height: 0.5;
       }
-p#bookName{
+#bookName{
         text-align: center;
         line-height: 1;
         font-weight: bold;
@@ -45,10 +45,10 @@ p#bookName{
         font-family: 'Oswald', 
                 sans-serif;
       }
-p.volNo{
+.volNo{
         color: rgb(145,66,232);
       }
-a.down{
+.down{
         display: block;
         color: red;
         background-color: white;
@@ -59,11 +59,11 @@ a.down{
         cursor: pointer;
         transition: 1s;
       }
-a.down:hover{
+.down:hover{
         background-color: red;
         color: white;
       }
-div.share{
+.share{
         height: 27px;
         font-size: 23px;
         display: block;
@@ -74,12 +74,12 @@ div.share{
         padding: 3px;
         box-shadow: none;
       }
-div.share:hover{
+.share:hover{
         border: 1px solid black;
         box-shadow: 0.3px 0.3px 3px 0.5px
         rgb(17,20,20) inset;
       }
-div.bubble{
+.bubble{
         margin: auto;
         vertical-align: middle;
         width: 30%;
@@ -88,7 +88,7 @@ div.bubble{
         border: 1px solid red;
         text-align: center;
       }
-div#PopularPosts1.widget.PopularPosts{
+#PopularPosts1.widget.PopularPosts{
         background-color: 
         rgb(255,255,255);}
 .post h3 {display: none}
